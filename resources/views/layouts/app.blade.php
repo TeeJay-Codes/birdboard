@@ -23,11 +23,13 @@
     <div id="app">
         <nav class="bg-white">
             <div class="container mx-auto">
-                <div class="flex justify-between items-center py-4 ">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
-
+                <div class="flex justify-between items-center py-2 ">
+                    <h1>
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="/images/logo.svg" alt="Birdboard">
+                        </a>
+                    </h1>
+                    
                     <div>
                         <!-- Left Side Of Navbar -->
                         <ul class="navbar-nav mr-auto">
