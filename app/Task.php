@@ -8,7 +8,7 @@ use App\Project;
 class Task extends Model
 {
     protected $guarded = [];
-    protected $touches = ['project']
+    protected $touches = ['project'];
 
     public function project()
     {
